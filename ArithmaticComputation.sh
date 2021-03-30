@@ -23,4 +23,4 @@ read val[3]
 echo "Enter value 4"
 read val[4]
 
-	echo Descending order is $(printf "%s\n" ${val[@]} | sort -nr)
+	echo Ascending order is $(printf "%s\n" ${val[@]} | sort -n)
